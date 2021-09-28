@@ -1,0 +1,21 @@
+/* các thẻ p là con, cháu của class a */
+.a p {
+    color: red;
+}
+/* các thẻ p là chỉ con của class a */
+.a > p {
+    color: yellow;
+}
+/* các thẻ p là đồng cấp liền kề của class a */
+.a + p{ 
+    color: blue;
+}
+/* các thẻ p là đồng cấp của class a */
+.a ~ p {
+    color: burlywood;
+}
+
+/* class a và class b */
+.a, .b  {
+    color: crimson;
+}

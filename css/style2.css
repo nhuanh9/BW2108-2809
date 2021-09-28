@@ -1,0 +1,9 @@
+/* selector:first-child=> selector đầu tiên trong cùng cấp nhận CSS */
+table tr:first-child { 
+    color: red;
+}
+
+/* first-line: dòng đầu */
+/* first-letter: chữ đầu */
+/* before: thêm vào trước */
+/* after: thêm vào sau */
